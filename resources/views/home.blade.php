@@ -5,7 +5,7 @@
     <div class="relative min-h-screen bg-gradient-to-br">
         {{-- Background Image dengan Overlay --}}
         <div class="absolute inset-0 z-0">
-            <img src="{{ asset('images/background-petani.jpeg') }}" alt="Pertanian Background"
+            <img src="{{ asset('images/background-petani.jpg') }}" alt="Pertanian Background"
                 class="w-full h-full object-cover">
             {{-- Dark Overlay untuk readability --}}
             <div class="absolute inset-0 bg-gradient-to-br"></div>
@@ -269,18 +269,6 @@
                 </p>
 
                 <div class="flex flex-col sm:flex-row gap-6 justify-center">
-                    <a href="{{ route('register') }}"
-                        class="group relative overflow-hidden bg-white text-green-600 hover:text-green-700 px-10 py-4 rounded-full font-bold text-lg shadow-2xl transform hover:-translate-y-1 transition-all duration-300">
-                        <span class="relative z-10 flex items-center justify-center">
-                            Daftar Gratis Sekarang
-                            <svg class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-200"
-                                fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </span>
-                    </a>
 
                     <a href="{{ route('lokasi') }}"
                         class="group border-2 border-white text-white hover:bg-white hover:text-green-600 px-10 py-4 rounded-full font-bold text-lg shadow-2xl transform hover:-translate-y-1 transition-all duration-300">

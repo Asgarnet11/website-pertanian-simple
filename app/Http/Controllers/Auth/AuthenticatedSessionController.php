@@ -28,7 +28,6 @@ class AuthenticatedSessionController extends Controller
 
         $request->session()->regenerate();
 
-        // UBAH KE REDIRECT '/'. TANDA '/' BERARTI KE HALAMAN UTAMA.
         return redirect()->intended('/');
     }
 
