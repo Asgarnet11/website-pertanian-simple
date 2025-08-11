@@ -6,11 +6,11 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12">
 
                 {{-- Kolom Kiri: Gambar Produk --}}
-                <div class="order-1">
-                    <div class="relative overflow-hidden rounded-xl shadow-lg bg-gray-100">
+                <div class="order-1 position-relative flex items-center justify-center">
+                    <div class="relative w-full overflow-hidden rounded-xl shadow-lg bg-gray-100">
                         <img src="{{ $produk->gambar_url ? asset('storage/' . $produk->gambar_url) : 'https://via.placeholder.com/800x600.png?text=Produk' }}"
                             alt="{{ $produk->nama_produk }}"
-                            class="w-full h-64 sm:h-80 lg:h-96 object-cover transition-transform duration-300 hover:scale-105"
+                            class="w-full h-full sm:h-80 lg:h-96 object-cover transition-transform duration-300 hover:scale-105"
                             loading="lazy">
                     </div>
                 </div>

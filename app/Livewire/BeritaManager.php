@@ -68,7 +68,6 @@ class BeritaManager extends Component
 
         session()->flash('message', 'Berita berhasil dipublikasikan.');
         $this->resetInput();
-        $this->mount();
     }
 
     public function edit($id)
@@ -113,7 +112,6 @@ class BeritaManager extends Component
 
             session()->flash('message', 'Berita berhasil diupdate.');
             $this->resetInput();
-            $this->mount();
         }
     }
 
@@ -129,7 +127,6 @@ class BeritaManager extends Component
 
         $berita->delete();
         session()->flash('message', 'Berita berhasil dihapus.');
-        $this->mount();
     }
 
     private function authorizeAdmin()

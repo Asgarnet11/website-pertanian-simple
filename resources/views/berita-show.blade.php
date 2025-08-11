@@ -6,7 +6,7 @@
                 <article class="relative">
 
                     {{-- Gambar Header dengan Overlay Gradient --}}
-                    <div class="relative h-64 sm:h-80 lg:h-96 overflow-hidden">
+                    <div class="relative h-full sm:h-80 lg:h-96 overflow-hidden">
                         <img class="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                             src="{{ $berita->gambar_url ? asset('storage/' . $berita->gambar_url) : 'https://via.placeholder.com/1200x600.png?text=Berita' }}"
                             alt="{{ $berita->judul }}" loading="lazy">
