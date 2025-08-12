@@ -219,30 +219,6 @@
     </div>
 
     {{-- ======================================================================= --}}
-    {{-- BAGIAN 3: KONTEN UNGGULAN DINAMIS DARI LIVEWIRE --}}
-    {{-- ======================================================================= --}}
-    <div class="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            {{-- Section Header --}}
-            <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold text-gray-900 mb-4">
-                    Konten <span class="text-green-600">Unggulan</span>
-                </h2>
-                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-                    Temukan informasi terkini, produk berkualitas, dan inovasi pertanian untuk kemajuan bersama
-                </p>
-            </div>
-
-            {{-- Livewire Component Container --}}
-            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
-                <div class="p-8 sm:p-12">
-                    @livewire('home-content-manager')
-                </div>
-            </div>
-        </div>
-    </div>
-
-    {{-- ======================================================================= --}}
     {{-- BAGIAN 4: CALL TO ACTION SECTION --}}
     {{-- ======================================================================= --}}
     <div class="relative py-20 bg-gradient-to-r from-green-600 via-emerald-600 to-teal-600 overflow-hidden">
